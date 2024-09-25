@@ -1,0 +1,8 @@
+nav {
+    display: flex;
+    background-color: var(--secondColor);
+    padding: 10px;
+    color: white;
+    justify-content:flex-start;
+  }
+  

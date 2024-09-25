@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+    --mainColor: rgba(241, 241, 234, 0.911);
+    --secondColor: rgb(63, 60, 85) ;
+    --lastColor: rgb(0, 0, 0);
+    --font-size-medium: 20px;
+    --font-size-large: 30px;
+}
+
+body {
+    background-color: var(--mainColor);
+    margin: 0;
+}
+
+
+button {
+    background-color: #f44336;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 50px ;
+    font-size: var(--font-size-medium);
+  }
+  
+  button:hover {
+    background-color: #d32f2f;
+  }
+
+input {
+    margin-right: 10px;
+    font-size: var(--font-size-medium);
+}
+  

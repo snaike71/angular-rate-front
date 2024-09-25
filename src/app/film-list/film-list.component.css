@@ -1,0 +1,20 @@
+h2 {
+    color: white;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-left: 10px;
+  }
+
+.film-container {
+  background-color: var(--secondColor);
+}
